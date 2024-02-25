@@ -39,7 +39,10 @@ public class AccountTest {
                  .when().get(uid)
         .then().extract().response();
        System.out.println(response.getBody().prettyPrint());
+       System.out.println("case end");
 
     }
+
+
 
 }
